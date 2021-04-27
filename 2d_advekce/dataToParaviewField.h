@@ -6,12 +6,10 @@
 #include <vector>
 #include <string>
 
-void printDataToParaview(double *data, //pole dat, které chceš zobrazit
-															//std::vector<double> rychlsot_x, //druhé pole dat, pro demonstraci
-															//std::vector<double> rychlost_y, //třetí pole dat, pro demonstraci
-															int pocetBoduSiteX, //velikost sítě ve směru Y, ve kterých jsou data
-															int pocetBoduSiteY, //velikost sítě ve směru X, ve který jsou data
-															std::string nazevSouboru)
+void printDataToParaview(double *data, 
+int pocetBoduSiteX, 
+int pocetBoduSiteY, 
+std::string nazevSouboru)
 {
 
 	const int pocPoli = 1; //<------------------ TADY
